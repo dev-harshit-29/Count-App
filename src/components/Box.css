@@ -1,0 +1,49 @@
+.incHeading{
+    color: rgb(119, 169, 225);
+}
+.whiteBox{
+    display: flex;
+    background: white;
+    max-height: 100px;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+.whiteBox h4{
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+.whiteBox input{
+    background-color:white ;
+    border: none;  
+    
+}
+.flexitems{
+    /* background-color: chocolate; */
+    width: 100%;
+    font-size: 50px;
+}
+#mbtn{
+    border-right: 2px solid rgb(0, 0, 0);
+    padding-bottom: 4px;
+    cursor: pointer;
+
+}
+#pbtn{
+    border-left: 2px solid black;
+    cursor: pointer;
+}
+#reset_btn{
+    margin-top: 50px;
+    margin-left: 20%;
+    min-height: 70px;
+    min-width: 60%;
+    font-weight: 800;
+    font-size: 35px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    border: none;
+    background-color: rgba(89, 174, 243, 0.975);
+    font-family: "Roboto Slab", serif;
+}
+

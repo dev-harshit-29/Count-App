@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+.Heading{
+  color:rgb(47, 245, 159) ;
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+.show{
+  display: flex;
+}
+.text-glow {/*Definig font could be useful!*/
+  font-size:4em;
+  color: #FFFFFF;
+  font-family:Arial;
+  }
+.text-glow:hover {
+text-shadow: 2px 3px 20px #ffd200;
+-webkit-transition: 1s linear 0s;
+-moz-transition: 1s linear 0s;
+-o-transition: 1s linear 0s;
+transition: 1s linear 0s;
+outline: 0 none;
+cursor: pointer;
+  }
